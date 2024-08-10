@@ -99,7 +99,7 @@ A bar plot shows the distribution of applicants' monthly income.
 ### Decision Tree Classifier
 - **Validation Accuracy**: 1.0
 - **Training Accuracy**: 1.0
-- **Test Accuracy**: Due to overfitting on training and test set it was needed.
+- **Test Accuracy**: Due to overfitting on training and validation set, testing on test set was not needed.
 
 ### Stratified K-Fold Cross Validation (Random Forest & Decision Tree)
 - To address overfitting, Stratified K-Fold Cross Validation was used.
@@ -118,6 +118,8 @@ Hyperparameter tuning was performed on both models using `GridSearchCV` to find 
   
 ## Conclusion
 
-- The Random Forest model with tuned hyperparameters provided a balanced performance with an accuracy of 0.80 on the test set.
-- The Decision Tree model with tuned hyperparameters provided a balanced performance with an accuracy of 0.85 on the test set.
+- The RF model and DT model after stratified k fold validation followed by tuned hyperparameters provided a balanced performance with an accuracy of 0.80  and 0.85 respectively on the test set.
 - Feature importance analysis highlighted the significance of `Term_of_Loan`, `Loan_Amount`, and `Applicant_Monthly_Income` in predicting loan approval.
+
+- ## Note
+- Still annotating data to improve model performance
