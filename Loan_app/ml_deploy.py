@@ -26,7 +26,7 @@ def send_email(to_email, loan_status):
 
 
 # Load the trained model
-loaded_model = pickle.load(open("DT_model.sav", "rb"))
+loaded_model = pickle.load(open("Loan_app/DT_model.sav", "rb"))
 
 # Function for loan prediction
 Loan_decline_message = "\nDear Applicant,\n" \
