@@ -111,7 +111,7 @@ def apply_custom_css():
 def main():
     apply_custom_css()
     st.title("AUTOMATED LOAN APPLICATION SYSTEM")
-    add_image_top_right("D:\\microloan.png")
+    add_image_top_right("Loan_app/microloan.png")
 
     # Navigation with the "Applicant Details" first and "Loan Application" second
     page = st.sidebar.selectbox("Choose a page", ["Applicant Details", "Loan Application"])
