@@ -1,6 +1,3 @@
-Certainly! Below is a detailed `README.md` based on the provided code and analysis:
-
----
 
 # Loan Prediction Model
 
